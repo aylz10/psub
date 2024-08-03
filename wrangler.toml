@@ -1,0 +1,16 @@
+main = "index.js"
+compatibility_date = "2023-04-17"
+
+[env.production]
+name = "psub"
+
+[env.production.vars]
+MODE = "production"
+TARGET_UPSTREAM = ""
+
+[env.staging]
+name = "psub-staging"
+
+[env.staging.vars]
+MODE = "staging"
+TARGET_UPSTREAM = ""
